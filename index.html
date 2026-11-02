@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PyVela: Learn Python</title>
+<meta name="description" content="PyVela teaches Python with quests, daily streaks and real code that runs on your phone, even offline.">
+<link rel="icon" href="icon.png">
+<style>
+  :root { --bg:#f6f5fd; --card:#ffffff; --fg:#14124a; --muted:#565c85; --line:#dcdff3; --accent:#3b3fb8; --soft:#6f7df0; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0e0f2b; --card:#171845; --fg:#eceefb; --muted:#a4a9d4; --line:#2b2d63; --accent:#9aa3ff; --soft:#6f7df0; } }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:880px; margin:0 auto; padding:40px 20px 72px; }
+  a { color:var(--accent); }
+  header { display:flex; align-items:center; gap:18px; flex-wrap:wrap; }
+  header img { width:96px; height:96px; border-radius:22px; box-shadow:0 8px 24px rgba(20,18,74,.25); }
+  h1 { font-size:2.2rem; line-height:1.1; margin:0 0 6px; letter-spacing:-.01em; }
+  h2 { font-size:1.25rem; margin:36px 0 10px; }
+  .lead { font-size:1.15rem; color:var(--muted); margin:0; max-width:34em; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:14px; margin-top:12px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:16px 18px; }
+  .card h3 { margin:0 0 4px; font-size:1.02rem; }
+  .card p { margin:0; color:var(--muted); font-size:.95rem; }
+  .shots { display:flex; gap:14px; overflow-x:auto; padding:6px 2px 12px; }
+  .shots img { height:420px; width:auto; border-radius:16px; border:1px solid var(--line); flex:none; }
+  .plans { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:14px; }
+  .plans ul { margin:8px 0 0; padding-left:18px; color:var(--muted); }
+  .pro { border-color:var(--soft); }
+  .tag { display:inline-block; font-size:.72rem; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--accent); }
+  hr { border:0; border-top:1px solid var(--line); margin:44px 0 0; }
+  footer { margin-top:28px; color:var(--muted); font-size:.9rem; }
+  footer a { margin-right:14px; }
+  .small { color:var(--muted); font-size:.88rem; }
+</style>
+</head>
+<body>
+<main>
+<header>
+  <img src="icon.png" alt="PyVela app icon" width="96" height="96">
+  <div>
+    <h1>PyVela</h1>
+    <p class="lead">Learn Python by playing: quests, daily streaks and real code that runs on your phone, even offline.</p>
+  </div>
+</header>
+
+<h2>What is PyVela?</h2>
+<p>PyVela turns Python practice into a quest. Pick a hero, walk the map from world to world and write real Python in every level. The code runs on your device with a real Python interpreter: no server, no account and no internet connection needed to play.</p>
+
+<div class="shots" aria-label="Screenshots">
+  <img src="shot-01-home.png" alt="PyVela home screen with streak, gems and the world map" width="236" height="420">
+  <img src="shot-03-level.png" alt="A level with the code editor" width="236" height="420">
+  <img src="shot-05-rewards.png" alt="The rewards screen with streak, daily goal and badges" width="236" height="420">
+</div>
+
+<div class="grid">
+  <div class="card"><h3>37 worlds, 295 levels</h3><p>From print and variables to classes, generators, decorators and async code.</p></div>
+  <div class="card"><h3>An editor made for phones</h3><p>Syntax highlighting, auto-indent and a symbol bar for : ( ) [ ] { }.</p></div>
+  <div class="card"><h3>Stay motivated</h3><p>Daily streaks, a daily XP goal, gems, stars and over 50 badges.</p></div>
+  <div class="card"><h3>Private by design</h3><p>No ads, no account, no tracking. Your progress stays on your device.</p></div>
+</div>
+
+<h2>Free and Pro</h2>
+<div class="plans">
+  <div class="card"><span class="tag">Free</span><ul><li>The introductory path</li><li>5 new lessons per day</li><li>Unlimited review</li><li>XP, streaks, gems and badges</li></ul></div>
+  <div class="card pro"><span class="tag">PyVela Pro</span><ul><li>All Python courses</li><li>Unlimited lessons every day</li><li>Yearly or monthly subscription, managed in Google Play</li></ul></div>
+</div>
+
+<p class="small">Many exercises are adapted from the open-source <a href="https://github.com/abhiksark/pythonlings">Pythonlings</a> project (MIT licence). Python is a trademark of the Python Software Foundation. PyVela is an independent app and is not affiliated with or endorsed by the Python Software Foundation.</p>
+
+<hr>
+<h2 lang="fr">PyVela en bref</h2>
+<p lang="fr">PyVela transforme l'entraînement à Python en quête : choisissez un héros, parcourez la carte de monde en monde et écrivez du vrai Python à chaque niveau. Votre code s'exécute sur votre téléphone, même hors ligne, sans compte ni serveur. 37 mondes et 295 niveaux, des séries quotidiennes, des objectifs d'XP, des gemmes et des badges. Gratuit : le parcours d'introduction et 5 nouvelles leçons par jour. PyVela Pro (abonnement annuel ou mensuel) : tous les cours et des leçons illimitées. L'application est en anglais.</p>
+
+<footer>
+  <a href="privacy-policy.html">Privacy policy / Confidentialité</a>
+  <a href="terms-of-use.html">Terms of use</a>
+  <a href="support.html">Support</a>
+  <a href="mailto:support@lqrconsulting.com">support@lqrconsulting.com</a>
+  <p>&copy; 2026 LQR Consulting</p>
+</footer>
+</main>
+</body>
+</html>
